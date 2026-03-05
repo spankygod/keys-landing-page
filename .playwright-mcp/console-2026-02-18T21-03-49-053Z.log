@@ -1,0 +1,20 @@
+[     779ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/site/users/me:0
+[     973ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    1319ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/site/users/me:0
+[    1679ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/site/users/me:0
+[    2190ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    2270ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    2292ms] [ERROR] Not signed in with the identity provider. @ https://www.framer.com/:0
+[    2461ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    2729ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    3855ms] [ERROR] Access to fetch at 'https://api-ingest.pocustrack.com/v1/visitor-events/enqueue' from origin 'https://www.framer.com' has been blocked by CORS policy: Request header field token is not allowed by Access-Control-Allow-Headers in preflight response. @ https://www.framer.com/:0
+[    3856ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://api-ingest.pocustrack.com/v1/visitor-events/enqueue:0
+[    3876ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://api-ingest.pocustrack.com/pocus-track/f90c7d73-ea1b-4046-813a-88ca6cabf00a.js:0:896)
+    at v (https://api-ingest.pocustrack.com/pocus-track/f90c7d73-ea1b-4046-813a-88ca6cabf00a.js:0:1320)
+    at <anonymous> (https://api-ingest.pocustrack.com/pocus-track/f90c7d73-ea1b-4046-813a-88ca6cabf00a.js:0:1527)
+    at <anonymous> (https://api-ingest.pocustrack.com/pocus-track/f90c7d73-ea1b-4046-813a-88ca6cabf00a.js:0:1533)
+[    5098ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
+[    6140ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    6408ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0
+[    7143ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.framer.com/auth/signin:0

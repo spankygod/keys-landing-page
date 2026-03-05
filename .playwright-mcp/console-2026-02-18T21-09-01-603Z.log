@@ -1,0 +1,92 @@
+[      29ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     136ms] Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `font-display`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+    at Object.getCompilationErrors (file://D:\GithubProjects\BitStat\frontend\bitstat\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1008:59)
+    at DevBundlerService.getCompilationError (file://D:\GithubProjects\BitStat\frontend\bitstat\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://D:\GithubProjects\BitStat\frontend\bitstat\node_modules\next\dist\server\dev\next-dev-server.js:706:42)
+    at DevServer.findPageComponents (file://D:\GithubProjects\BitStat\frontend\bitstat\node_modules\next\dist\server\dev\next-dev-server.js:676:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\GithubProjects\BitStat\frontend\bitstat\node_modules\next\dist\server\base-server.js:1733:26)
+[     143ms] [ERROR] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `font-display`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[     245ms] [ERROR] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `font-display`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    1118ms] [ERROR] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `font-display`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[   14955ms] [ERROR] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `font-display`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[   15220ms] [ERROR] ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\GithubProjects\BitStat\frontend\bitstat\app\globals.css:1:1: Cannot apply unknown utility class `card`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\GithubProjects\BitStat\frontend\bitstat\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
